@@ -3,6 +3,35 @@ A Shopping website implemented in Angular, Sprint Boot and MongoDB
 
 This is a Single Page Appliaction with client-side rendering. It includes backend and frontend two seperate projects. The frontend client makes API calls to the backend server when it is running.
 
+### Features
+
+- Cookie based visitors' shopping cart
+- Product Details Display
+- Cart & order management
+- Checkout
+- Catalogue
+- Order management
+
+### Technology Stacks
+
+- Java 8
+- Spring Boot 2.3
+- Spring Data JPA
+- Maven
+- REST API
+- Mongo DB
+
+### Frontend
+
+- Angular 9
+- Angular CLI
+- Angular Material 
+- Bootstrap
+- NgRx State Mangement
+
+
+### SCREENSHOTS:
+
 ### Home Page
 
 ![image](https://user-images.githubusercontent.com/54956998/85492471-37e0d680-b5a3-11ea-8c66-16beef197317.png)
