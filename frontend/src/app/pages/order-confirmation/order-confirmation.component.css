@@ -1,0 +1,7 @@
+.mat-list-base {
+    width: 50% !important;
+}
+
+.mat-list-base .mat-list-item .mat-list-text {
+    flex-direction: row !important;
+}

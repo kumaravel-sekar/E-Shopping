@@ -1,0 +1,34 @@
+<h1 align="center" class="display-4">Thanks for you Order</h1>
+<h5 align="center" class="card-title  mb-5">We are processing your order now, here are the details </h5>
+<hr>
+<div align="center" style="margin-bottom: 10rem;">
+<mat-list>
+    <mat-list-item>
+        <div mat-line style="width:20%;"><p>Order No.</p></div> 
+        <p marLine>{{orderNumber}}</p>
+    </mat-list-item>
+      <mat-divider></mat-divider>
+</mat-list>
+<mat-list>
+  <mat-list-item>
+      <span mat-line style="width:25%;"><p>Ordered Date</p></span> 
+        <p marLine style="width:25%;">{{orderDate | date:'longDate'}}</p>
+  </mat-list-item>
+      <mat-divider></mat-divider>
+</mat-list>
+<mat-list>
+  <mat-list-item>
+      <div mat-line style="width:25%;"><p>Deleivery Date</p></div> 
+        <p marLine style="width:25%;">{{deliveryDate | date:'longDate'}}</p> 
+  </mat-list-item>
+      <mat-divider></mat-divider>
+</mat-list>
+<mat-list>
+  <mat-list-item>
+      <div mat-line style="width:25%;"><p>Order Status</p></div> 
+        <p marLine style="width:25%;">{{orderStatus}}</p> 
+  </mat-list-item>
+      <mat-divider></mat-divider>
+</mat-list>
+<button (click)="homepage()" class="btn btn-warning float-center mt-5">Done</button>
+</div>

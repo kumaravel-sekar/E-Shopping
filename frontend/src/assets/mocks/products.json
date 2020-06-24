@@ -1,0 +1,31 @@
+[{
+  "productId": "B0001",
+  "productName": "Samsung G20",
+  "productPrice": 930.00,
+  "productStock": 96,
+  "productDescription": "Samsung G20",
+  "productIcon": "/assets/images/samsung.png",
+  "productStatus": "0",
+  "categoryId": "1"
+},
+{
+  "productId": "B0002",
+  "productName": "OnePlus",
+  "productPrice": 1220.00,
+  "productStock": 195,
+  "productDescription": "OnePlus",
+  "productIcon": "/assets/images/oneplus.jpg",
+  "productStatus": 0,
+  "categoryId": "1"
+},
+{
+  "productId": "B0003",
+  "productName": "IphoneX",
+  "productPrice": 1020.00,
+  "productStock": 195,
+  "productDescription": "IphoneX",
+  "productIcon": "/assets/images/iphonex.jpg",
+  "productStatus": 0,
+  "categoryId": "1"
+}
+]
